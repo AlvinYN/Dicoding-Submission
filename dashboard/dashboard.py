@@ -23,7 +23,7 @@ st.set_page_config(
 # Function to load data
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:\\Users\\aallv\\Documents\\GitHub\\modelML\\Project Analisis Data Dicoding\\all_data.csv")
+    return pd.read_csv("dashboard/all_data.csv")
 
 # Main function to run the Streamlit app
 def main():    
